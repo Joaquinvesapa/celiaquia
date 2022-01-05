@@ -2,7 +2,9 @@ import React from 'react'
 
 const Recetas = () => {
   return (
-    <h1>Estas son las Recetas</h1>
+    <div style={{display: 'flex', justifyContent: "center", alignItems: "center", height: "80vh"}}>
+      <h1>Recetas</h1>
+    </div>
   )
 }
 

@@ -8,9 +8,20 @@ export const Nav = styled.nav`
   height: 70px;
   width: 100%auto;
   display: flex;
+  position:relative;
   justify-content: space-between;
   padding: 0.5rem calc((100vw - 1000px) / 2);
-  z-index: 10;
+  z-index: 1;
+`
+
+export const NavLogo = styled(Link)`
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
 `
 
 export const NavLink = styled(Link)`
@@ -46,6 +57,7 @@ export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-right: -24px;
+  font-weight: bolder;
 
   @media screen and (max-width: 768px){
     display: none;

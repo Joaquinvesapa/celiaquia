@@ -2,7 +2,9 @@ import React from 'react'
 
 const Contacto = () => {
   return (
-      <h1>Este es el contacto</h1>
+    <div style={{display: 'flex', justifyContent: "center", alignItems: "center", height: "80vh"}}>
+      <h1>Contacto</h1>
+    </div>
   )
 }
 
