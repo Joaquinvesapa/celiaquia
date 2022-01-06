@@ -4,7 +4,9 @@ import {GoThreeBars} from 'react-icons/go'
 
 
 export const Nav = styled.nav`
-  background: #000;
+/*   background: #000;
+ */  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  overflow: hidden;
   height: 70px;
   width: 100%auto;
   display: flex;
@@ -12,10 +14,14 @@ export const Nav = styled.nav`
   justify-content: space-between;
   padding: 0.5rem calc((100vw - 1000px) / 2);
   z-index: 1;
+
+  &:before{
+    filter:blur(6px);
+  }
 `
 
 export const NavLogo = styled(Link)`
-  color: #fff;
+  color: #000;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -25,7 +31,7 @@ export const NavLogo = styled(Link)`
 `
 
 export const NavLink = styled(Link)`
-  color: #fff;
+  color: #000;
   display: flex;
   align-items: center;
   text-decoration: none;

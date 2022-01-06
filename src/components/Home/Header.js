@@ -1,16 +1,14 @@
 import React from 'react'
-import {Head, Circle, HeadContent, HeadSection} from './HeaderElements'
+import NavBar from '../Nav/NavBar'
+import {Circle, Head, /* HeadContent ,*/ HeadSection} from './HeaderElements'
 
 const Header = () => {
     return (
         <div>
             <Head>
-                <Circle style={{zindex: "1", top: '74%', left: '63%'}}/>
-                <Circle style={{zindex: "2", bottom: "405%", right: "29%"}}/>
-                <HeadContent>
-                        Soy Celiaco, no Extraterrestre
-                </HeadContent>
-                     
+                <Circle style={{clipPath:" circle(700px at right 1300px)"}}/>
+                <Circle style={{clipPath:" circle(700px at left -440px)"}}/>
+                <NavBar/>
             </Head>
             <HeadSection/>     
         </div>

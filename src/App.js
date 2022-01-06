@@ -4,7 +4,6 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import NavBar from './components/Nav/NavBar';
 import Inicio from './pages/Inicio';
 import Contacto from './pages/Contacto';
 import Recetas from './pages/Recetas';
@@ -15,7 +14,6 @@ import MasInfo from './pages/MasInfo';
 function App() {
   return (
     <Router>
-      <NavBar/>
       <Routes>
         <Route path="/" exact element={<Inicio/>}/>
         <Route path="contacto" exact element={<Contacto/>}/>

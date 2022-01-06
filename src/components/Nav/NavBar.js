@@ -1,4 +1,5 @@
 import React from 'react';
+import { Circle } from '../Home/HeaderElements.js';
 import {Nav, NavLink, NavMenu, Bars, NavLogo} from'./NavBarElements.js'
 
 const NavBar = () => {
@@ -22,6 +23,7 @@ const NavBar = () => {
           Contacto
         </NavLink>
       </NavMenu>
+      <Circle/>
     </Nav>
   )
 }
