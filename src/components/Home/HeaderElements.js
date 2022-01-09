@@ -15,7 +15,7 @@ export const Circle = styled.div`
     left: 0;
     height: 100%;
     width: 100%;
-    clip-path: circle(700px at right 1300px);
+    z-index:0;
 `
 
 export const HeadContent = styled.h2`
@@ -26,6 +26,6 @@ export const HeadSection = styled.div`
     height: 70vh;
     position: relative;
     background-color: grey;
-    z-index: 3;
+    z-index: 2;
     display: block;
 `
