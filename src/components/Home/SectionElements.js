@@ -6,10 +6,10 @@ export const Section = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 150px 200px;
+    flex-direction: column;
+    padding: 150px 3px;
 
-    @media screen and (max-width: 900px) {
-        flex-direction: column;
+    @media screen and (max-width: 768px) {
     }
 `
 
@@ -18,10 +18,10 @@ export const TextContent = styled.div`
     max-width: 600px; 
 
     & h2 {
-        font-size: 4em;
+        font-size: 3em;
         font-weight: bold;
 
-        @media screen and (max-width: 900px) {
+        @media screen and (max-width: 768px) {
             font-size: 2.5em;
         }   
     }
