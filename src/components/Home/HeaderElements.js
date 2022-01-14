@@ -7,6 +7,15 @@ export const Head = styled.div`
     min-height: 100vh;
     position: relative;
 `
+export const HeadSection = styled.div`
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: rgb(255,79,183);
+    background: linear-gradient(56deg, rgba(255,79,183,1) 0%, rgba(255,140,111,1) 69%);
+    z-index: 2;
+    display: block;
+`
 
 export const Circle = styled.div`
     position: absolute;
@@ -16,16 +25,4 @@ export const Circle = styled.div`
     height: 100%;
     width: 100%;
     z-index:0;
-`
-
-export const HeadContent = styled.h2`
-`
-
-export const HeadSection = styled.div`
-    width: 100%;
-    height: 70vh;
-    position: relative;
-    background-color: grey;
-    z-index: 2;
-    display: block;
 `

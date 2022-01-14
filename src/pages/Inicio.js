@@ -4,20 +4,20 @@ import Progress from '../components/Home/Progress'
 import '../css/loading.css'
 
 const Inicio = () => {
-  const [loading, setloading] = useState(true);
+  const [loading, setloading] = useState(false);
 
-  useEffect(() => {
+  /* useEffect(() => {
     setloading(true)
     setTimeout(() => {
       setloading(false)
     }, 2500);
-  }, []);
+  }, []); */
 
   return (
     <div>
-      <div className={loading ? 'loading-active' : 'loading'}>
+      {/* <div className={loading ? 'loading-active' : 'loading'}>
         <Progress done="100"/>
-      </div>
+      </div> */}
       {
         loading ? <></> : <Header/> 
       }
