@@ -5,7 +5,7 @@ export const Section = styled.div`
     width:100%;
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items: start;
     flex-direction: column;
     padding: 35vh 150px;
 
@@ -24,8 +24,8 @@ export const TextContent = styled.div`
         }  
 
     & h2 {
-        font-size: 5em;
-        display: flex;
+        font-size: 4em;
+/*         display: flex; */
         font-weight: bold;
 
         @media screen and (max-width: 768px) {

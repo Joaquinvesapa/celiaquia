@@ -1,0 +1,12 @@
+.container{
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 70px calc((100vw - 1000px));
+}
+
+ul{
+  list-style: none;
+  font-weight: bold;
+}
